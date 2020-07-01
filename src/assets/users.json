@@ -398,18 +398,6 @@
 },
 {
 "name": {
-"title": "Mr",
-"first": "آرسین",
-"last": "مرادی"
-},
-"email": "arsyn.mrdy@example.com",
-"dob": {
-"date": "1992-10-01T22:47:33.569Z",
-"age": 28
-}
-},
-{
-"name": {
 "title": "Ms",
 "first": "Felisberta",
 "last": "Carvalho"
