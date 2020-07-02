@@ -39,9 +39,10 @@ class DataTable extends Component {
     render() {
         return (
             <Fragment>
-                <input onChange={(event) => this.setState({filter: event.target.value})}></input>
-                <table>
-                    <DataHeader toggleSort={this.toggleSort}/>
+                <h4>Search for user:</h4>
+                <input className="mt-3" placeholder="search name" onChange={(event) => this.setState({filter: event.target.value})}></input>
+                <table className="table table-striped mt-3">
+                    <DataHeader sortDirection={this.state.sort} toggleSort={this.toggleSort}/>
                     <tbody>
                         {this.DB.users
                             .filter(this.filterUsers)
